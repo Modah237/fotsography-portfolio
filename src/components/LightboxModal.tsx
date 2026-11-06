@@ -297,7 +297,7 @@ export default function LightboxModal({
               rel="noopener noreferrer"
               className="flex items-center gap-2 px-4 py-3 rounded-full bg-white/5 border border-white/10 text-white text-xs font-mono uppercase tracking-wider hover:border-[#C5A059] transition-all"
             >
-              <InstagramIcon className="w-3.5 h-3.5 text-[#C5A059]" />
+              <InstagramIcon className="w-3.5 h-3.5 text-[#C5A059]" size={14} />
               <span>Voir Source</span>
               <ExternalLink className="w-3 h-3" />
             </a>

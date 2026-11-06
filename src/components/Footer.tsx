@@ -71,10 +71,10 @@ export default function Footer() {
         href="https://www.instagram.com/adrielfotsography/"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 z-40 flex items-center gap-2.5 px-4 py-3 rounded-full bg-[#C5A059] text-black font-semibold text-xs shadow-[0_4px_25px_rgba(197,160,89,0.35)] hover:bg-white hover:scale-105 transition-all duration-300"
+        className="fixed bottom-6 right-6 sm:right-8 z-40 flex items-center gap-2.5 px-4 py-3 rounded-full bg-[#C5A059] text-black font-semibold text-xs shadow-[0_4px_25px_rgba(197,160,89,0.35)] hover:bg-white hover:scale-105 transition-all duration-300"
         title="Contacter sur Instagram officiel"
       >
-        <InstagramIcon className="w-4 h-4 text-black" />
+        <InstagramIcon className="w-4 h-4 text-black" size={16} />
         <span className="hidden sm:inline">Message @adrielfotsography</span>
       </a>
     </>

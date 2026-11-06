@@ -46,7 +46,7 @@ export default function InstagramFeed() {
           <div className="flex items-center gap-4">
             <div className="w-14 h-14 rounded-full p-[2px] bg-gradient-to-tr from-[#C5A059] via-rose-500 to-purple-600">
               <div className="w-full h-full rounded-full bg-[#08080a] flex items-center justify-center">
-                <InstagramIcon className="w-6 h-6 text-white" />
+                <InstagramIcon className="w-6 h-6 text-white" size={24} />
               </div>
             </div>
             <div>

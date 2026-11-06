@@ -72,7 +72,7 @@ export default function Navbar({ onOpenBooking }: NavbarProps) {
               className="flex items-center gap-2 px-3.5 py-2 rounded-full bg-white/5 border border-white/10 text-xs text-[#F7F5F0] hover:border-[#C5A059] hover:text-[#C5A059] transition-all"
               title="Compte Officiel Instagram"
             >
-              <InstagramIcon className="w-3.5 h-3.5 text-[#C5A059]" />
+              <InstagramIcon className="w-3.5 h-3.5 text-[#C5A059]" size={14} />
               <span className="text-[11px] uppercase tracking-wider hidden sm:inline">@adrielfotsography</span>
             </a>
 

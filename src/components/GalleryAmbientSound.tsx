@@ -90,7 +90,7 @@ export default function GalleryAmbientSound() {
   }, []);
 
   return (
-    <div className="fixed bottom-6 left-6 z-40">
+    <div className="fixed bottom-6 left-6 sm:bottom-8 sm:left-8 z-40">
       <button
         onClick={toggleSound}
         className={`liquid-pill px-4 py-2.5 rounded-full flex items-center gap-2.5 border transition-all cursor-pointer shadow-xl ${
